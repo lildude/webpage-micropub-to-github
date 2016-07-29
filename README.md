@@ -18,7 +18,7 @@ Requires at least Node.js 5.0.0.
 
 ### On Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/voxpelli/webpage-micropub-to-github)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lildude/webpage-micropub-to-github)
 
 ### Elsewhere:
 
