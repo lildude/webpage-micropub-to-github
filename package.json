@@ -1,6 +1,6 @@
 {
   "name": "micropub-to-github",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "license": "MIT",
   "private": true,
   "description": "An endpoint that accepts Micropub requests, formats them into Jekyll posts and pushes them to a configured GitHub repository.",
@@ -46,8 +46,9 @@
     "bunyan-duckling": "^1.0.0",
     "dotenv": "^2.0.0",
     "express": "^4.13.0",
-    "format-microformat": "^0.6.0",
+    "format-microformat": "^0.7.0",
     "github-publish": "^1.1.0",
+    "js-yaml": "^3.6.1",
     "micropub-express": "^0.4.0"
   }
 }
