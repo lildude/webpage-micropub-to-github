@@ -1,7 +1,7 @@
 # Micropub to GitHub
 
 [![Build Status](https://travis-ci.org/voxpelli/webpage-micropub-to-github.svg?branch=master)](https://travis-ci.org/voxpelli/webpage-micropub-to-github)
-[![Coverage Status](https://coveralls.io/repos/voxpelli/webpage-micropub-to-github/badge.svg)](https://coveralls.io/r/voxpelli/webpage-micropub-to-github)
+[![Coverage Status](https://coveralls.io/repos/github/voxpelli/webpage-micropub-to-github/badge.svg?branch=master)](https://coveralls.io/github/voxpelli/webpage-micropub-to-github?branch=master)
 [![Dependency Status](https://gemnasium.com/voxpelli/webpage-micropub-to-github.svg)](https://gemnasium.com/voxpelli/webpage-micropub-to-github)
 
 An endpoint that accepts [Micropub](http://micropub.net/) requests, formats them into [Jekyll](http://jekyllrb.com/) posts and pushes them to a configured GitHub repository.
@@ -12,7 +12,7 @@ The Micropub protocol is part of the [IndieWeb](https://indieweb.org/) movement.
 
 ## Requirements
 
-Requires at least Node.js 5.0.0.
+Requires at least Node.js 6.0.0.
 
 ## Setup
 
@@ -23,6 +23,10 @@ Requires at least Node.js 5.0.0.
 ### Elsewhere:
 
 Install it like a normal node.js application and adds the needed configuration through environment variables, either by copying the `sample.env` as `.env` and filling the values in there or by setting them through any other mechanism.
+
+### Yarn-support
+
+This project contains a [https://yarnpkg.com/](Yarn) lock file which is a faster and more secure alternative to the npm client.
 
 ## Micropub endpoint discovery
 
@@ -46,6 +50,10 @@ Unsupported:
 
 * Partial update
 * Deletes
+
+## Configuration options
+
+See the `sample.env` file.
 
 ## Modules used
 
